@@ -42,22 +42,23 @@
   flex-grow: 1;
 }
 
-ul {
+.tasks {
   margin: 0;
   padding: 0px;
 }
 
-li,
-h3 {
+.list,
+.title {
   list-style: none;
 }
 
-input,
-button {
+.list__input,
+.list__checkbox,
+.button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +68,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3A3a;
 }
 
@@ -126,7 +127,7 @@ button:hover {
   width: 226px;
 }
 
-.list > input[type="text"] {
+.list__input  {
   width: 226px;
 }
 
